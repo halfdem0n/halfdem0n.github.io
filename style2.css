@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    background-color: #e9e9f2;
+    font-family: 'Pangolin', cursive;
+}
+
+.ingredients {
+    background-color: rgb(103, 103, 130);
+    width: 25%;
+    padding: 5px 15px;
+    margin: 20px 30px;
+    float: left;
+}
+
+.recipe {
+    background-color: rgb(103, 103, 130);
+    width: 60%;
+    padding: 5px 15px;
+    margin: 20px 30px;
+    float: left;
+}
+
+.back a{
+    text-decoration: none;
+    color: #f6f4ed;
+    padding: 10px 20px;
+    background-color: #691625;
+    font-weight: bold;
+}
+
+.back {
+    clear: both;
+    position: fixed;
+    left: 30px;
+    bottom: 25px;
+}

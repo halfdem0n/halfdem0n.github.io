@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    background-color: #e9e9f2;
+    font-family: 'Pangolin', cursive;
+}
+
+/*HEADER*/
+
+.icon {
+    width: 60px;
+    float: left;
+    margin: 25px 0 30px 40px;
+}
+
+.header-text {
+    font-size: 50px;
+    float: left;
+    margin: 25px 10px;
+    color: #e9e9f2;
+}
+
+header {
+    background-color: #691625;
+}
+
+.header-whole {
+    border-bottom: 1px solid #a4a4a4;
+}
+
+.clear {
+    clear: both;
+}
+
+/*NAV*/
+.search {
+    background-color: #691625;
+    clear: both;
+}
+
+input {
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 10px;
+    width: 500px;
+}
+
+.menu {
+    margin-left: 10px;
+}
+
+.menu:hover > aside{
+    display: block;
+}
+
+/*PHOTOS*/
+main {
+    margin: 25px 0 0 22px;
+}
+
+figure {
+    margin: 0;
+}
+
+.photo {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ figure img {
+    min-width: 150px;
+    width: 250px;
+    border-radius: 0px;
+}
+
+figcaption {
+    width: 250px;
+}
+
+figure {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid rgb(32, 32, 57);
+}
+
+/*ASIDE*/
+aside {
+    background-color: #691625;
+    width: 20%;
+    height: 600px;
+    position: absolute;
+    display: none;
+}
+
+.up {
+    width: 50px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
