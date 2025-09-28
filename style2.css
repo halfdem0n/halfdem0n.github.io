@@ -4,20 +4,57 @@ body {
     font-family: 'Pangolin', cursive;
 }
 
+header {
+    width: 100%;
+    padding: 5px;
+    background-color: #691625;
+    color: #e9e9f2;
+    font-size: 25px;
+    text-align: center;
+}
+
+main {
+    background-color: #d3d3de;
+    margin: 20px auto 70px auto;
+    padding: 5px 0px;
+    min-width: 500px;
+    width: 70%;
+}
+
 .ingredients {
-    background-color: rgb(103, 103, 130);
-    width: 25%;
-    padding: 5px 15px;
-    margin: 20px 30px;
-    float: left;
+    /* width: 93%; */
+    margin: 10px 25px 10px 25px;
+    color: #691625;
+}
+
+.ingredients ul{
+    margin-top: 0;
+    padding-left: 25px;
+}
+
+.ingredients p {
+    margin-bottom: 3px;
+    margin-top: 15px;
 }
 
 .recipe {
-    background-color: rgb(103, 103, 130);
-    width: 60%;
-    padding: 5px 15px;
-    margin: 20px 30px;
-    float: left;
+    /* width: 93%; */
+    margin: 10px 25px 25px 25px;
+}
+
+.photo {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.photo img {
+    width: 20vw;
+    margin: 10px;
+}
+
+#gif{
+    width: 500px;
 }
 
 .back a{
@@ -29,8 +66,50 @@ body {
 }
 
 .back {
-    clear: both;
     position: fixed;
     left: 30px;
     bottom: 25px;
+}
+
+@media only screen and (max-width: 900px) {
+    header {
+        font-size: 2.8vw;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    main {
+        margin: 3.36vw auto 11.76vw auto;
+        padding: 0.84vw 0px;
+        width: 70%;
+        min-width: 84vw;
+        font-size: 2.7vw;
+    }
+
+    .ingredients {
+        margin: 1.68vw 4.2vw;
+    }
+    
+    .ingredients ul{
+        padding-left: 4.2vw;
+    }
+    
+    .ingredients p {
+        margin-bottom: 0.5vw;
+        margin-top: 2.5vw;
+    }
+    
+    .recipe {
+        margin: 1.68vw 4.2vw 4.2vw 4.2vw;
+    }
+
+    .back a{
+        padding: 1.68vw 3.36vw;
+    }
+    
+    .back {
+        left: 5vw;
+        bottom: 4.2vw;
+        font-size: 2.7vw;
+    }
 }
